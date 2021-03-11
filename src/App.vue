@@ -1,42 +1,28 @@
 <template>
   <div id="app">
     <Header />
-    <div>
-      <img width="200" src="./icons/logo.png" alt="">
-    </div>
-    <router-view />
+    <main class="main">
+      <Container>
+        <router-view />
+      </Container>
+    </main>
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header";
+import Container from "@/components/Container";
   export default {
     name : 'App',
     components : {
-      Header
+      Header,
+      Container
     }
   }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  .main {
+    padding-top: 40px;
+  }
 </style>

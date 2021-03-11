@@ -1,18 +1,97 @@
 <template>
-  <header>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/direct">Direct</router-link> |
-      <router-link to="/explore">Explore</router-link> |
-      <router-link to="/profile">Profile</router-link>
+  <header class="header">
+    <Container class="header-inner">
+      <router-link to="/" class="logo">
+        <img  src="../icons/logo.png" alt="">
+      </router-link>
+
+      <form class="search">
+        <input type="text" placeholder="Ara">
+      </form>
+
+      <nav class="navigation">
+        <router-link to="/">
+          <IconHomeFill v-if="$route.name==='Home'" />
+          <IconHome v-else />
+        </router-link>
+        <router-link to="/direct">
+          <IconDirectFill  v-if="$route.name==='Direct'" />
+          <IconDirect v-else/>
+        </router-link>
+        <router-link to="/explore">
+          <IconExploreFill  v-if="$route.name==='Explore'" />
+          <IconExplore v-else/>
+        </router-link>
+        <router-link to="/profile">Profile</router-link>
+      </nav>
+    </Container>
   </header>
 </template>
 
 <script>
+import IconHome from '@/icons/home.svg'
+import IconHomeFill from '@/icons/home-fill.svg'
+import IconDirect from '@/icons/direct.svg'
+import IconDirectFill from '@/icons/direct-fill.svg'
+import IconExplore from '@/icons/explore.svg'
+import IconExploreFill from '@/icons/explore-fill.svg'
+
+import Container from "@/components/Container";
+
 export default {
-name: "Header"
+  name: "Header",
+  components : {
+    IconHome,
+    IconHomeFill,
+    IconDirect,
+    IconDirectFill,
+    IconExplore,
+    IconExploreFill,
+
+    Container
+  }
 }
 </script>
 
 <style scoped>
+.header {
+  border-bottom: 1px solid rgba(var(--b6a));
+  background-color: rgba(var(--d87));
+  height: 54px;
+}
+.header-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 10px;
+  height: 54px;
+}
+.logo {
+  width: 103px;
+  height: 29px;
+  margin: 0;
+  padding: 0;
+}
+.logo img {
+  height: 29px;
+}
+.search {
+  text-align: center;
+}
+.search input {
+  width: 215px;
+  height: 28px;
+  border: 1px solid rgba(var(--b6a));
+  border-radius: 4px;
+  background: rgba(var(--b3f));
+  padding: 0 20px;
+}
+.navigation {
+  display: flex;
+  justify-content: flex-end;align-items: center;
+}
+.navigation a{
+  margin-left: 20px;
+}
 
 </style>
