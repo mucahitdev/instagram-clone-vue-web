@@ -1,12 +1,22 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <Header />
+    <div>
+      <img width="200" src="./icons/logo.png" alt="">
     </div>
     <router-view />
   </div>
 </template>
+
+<script>
+import Header from "@/components/Header";
+  export default {
+    name : 'App',
+    components : {
+      Header
+    }
+  }
+</script>
 
 <style>
 #app {

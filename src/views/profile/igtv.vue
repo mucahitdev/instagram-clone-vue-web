@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <ctext msg="Welcome to Your Vue.js App" />
+    <ctext tag="h1">Profile IGTV</ctext>
   </div>
 </template>
 
@@ -9,7 +8,7 @@
 // @ is an alias to /src
 import ctext from '@/components/ctext'
 export default {
-  name: 'Home',
+  name: 'ProfileIgtv',
   components: {
     ctext : ctext
   }
