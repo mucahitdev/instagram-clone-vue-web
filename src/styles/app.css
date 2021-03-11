@@ -6,15 +6,16 @@
   border: 0;
   font-family: inherit;
 
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
+
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 html {
-  font-size: 14px;
+  font-size: 15px;
   box-sizing: border-box;
 }
 
