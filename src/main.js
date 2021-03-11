@@ -3,11 +3,11 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
-import 'src/styles/app.css'
+import appcss from './styles/app.css'
 
 Vue.config.productionTip = false
-// todo adjbuıdbaw
 new Vue({
+  appcss,
   router,
   store,
   render: h => h(App)
