@@ -1,57 +1,7 @@
 <template>
   <div class="home">
     <div class="timeline">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
+        <p>AS ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
         m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
         m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
