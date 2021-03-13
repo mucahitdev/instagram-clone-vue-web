@@ -1,26 +1,27 @@
+<!--suppress ALL -->
 <template>
   <header class="header">
     <Container class="header-inner">
       <router-link to="/" class="logo">
-        <img  src="../icons/logo.png" alt="">
+        <img src="../icons/logo.png" alt="" />
       </router-link>
 
       <form class="search">
-        <input type="text" placeholder="Ara">
+        <input type="text" placeholder="Ara" />
       </form>
 
       <nav class="navigation">
         <router-link to="/">
-          <IconHomeFill v-if="$route.name==='Home'" />
+          <IconHomeFill v-if="$route.name === 'Home'" />
           <IconHome v-else />
         </router-link>
         <router-link to="/direct">
-          <IconDirectFill  v-if="$route.name==='Direct'" />
-          <IconDirect v-else/>
+          <IconDirectFill v-if="$route.name === 'Direct'" />
+          <IconDirect v-else />
         </router-link>
         <router-link to="/explore">
-          <IconExploreFill  v-if="$route.name==='Explore'" />
-          <IconExplore v-else/>
+          <IconExploreFill v-if="$route.name === 'Explore'" />
+          <IconExplore v-else />
         </router-link>
         <router-link to="/profile">Profile</router-link>
       </nav>
@@ -36,11 +37,11 @@ import IconDirectFill from '@/icons/direct-fill.svg'
 import IconExplore from '@/icons/explore.svg'
 import IconExploreFill from '@/icons/explore-fill.svg'
 
-import Container from "@/components/Container";
+import Container from '@/components/Container'
 
 export default {
-  name: "Header",
-  components : {
+  name: 'Header',
+  components: {
     IconHome,
     IconHomeFill,
     IconDirect,
@@ -87,11 +88,20 @@ export default {
   padding: 0 20px;
 }
 .navigation {
-  display: flex;
-  justify-content: flex-end;align-items: center;
+  z-index: 90;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(153, 0, 255);
+  @media (--t) {
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    a {
+      margin-left: 20px;
+    }
+  }
 }
-.navigation a{
-  margin-left: 20px;
-}
-
 </style>

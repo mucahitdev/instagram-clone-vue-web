@@ -10,19 +10,19 @@
 </template>
 
 <script>
-import Header from "@/components/Header";
-import Container from "@/components/Container";
-  export default {
-    name : 'App',
-    components : {
-      Header,
-      Container
-    }
+import Header from '@/components/Header'
+import Container from '@/components/Container'
+export default {
+  name: 'App',
+  components: {
+    Header,
+    Container
   }
+}
 </script>
 
 <style>
-  .main {
-    padding-top: 40px;
-  }
+.main {
+  padding-top: 40px;
+}
 </style>

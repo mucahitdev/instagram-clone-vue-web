@@ -10,7 +10,7 @@ import ctext from '@/components/ctext'
 export default {
   name: 'ProfileIgtv',
   components: {
-    ctext : ctext
+    ctext: ctext
   }
 }
 </script>

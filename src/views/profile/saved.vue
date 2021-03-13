@@ -10,7 +10,7 @@ import ctext from '@/components/ctext'
 export default {
   name: 'ProfileSaved',
   components: {
-    ctext : ctext
+    ctext: ctext
   }
 }
 </script>
