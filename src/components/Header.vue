@@ -93,12 +93,15 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(153, 0, 255);
+  background-color: rgb(76, 0, 255);
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   @media (--t) {
+    height: auto;
     position: static;
-    display: flex;
     justify-content: flex-end;
-    align-items: center;
     a {
       margin-left: 20px;
     }
