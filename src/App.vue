@@ -23,6 +23,6 @@ export default {
 
 <style>
 .main {
-  padding-top: 40px;
+  padding-top: 60px;
 }
 </style>

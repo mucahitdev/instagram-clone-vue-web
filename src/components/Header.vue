@@ -25,6 +25,7 @@
         </router-link>
         <router-link to="/profile">Profile</router-link>
       </nav>
+
     </Container>
   </header>
 </template>
@@ -59,13 +60,24 @@ export default {
   border-bottom: 1px solid rgba(var(--b6a));
   background-color: rgba(var(--d87));
   height: 54px;
+  position: fixed;
+  left:0;
+  right: 0;
+  top: 0;
+  z-index: 90;
 }
 .header-inner {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  padding: 10px;
   height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (--t) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+    height: 44px;
+  }
 }
 .logo {
   width: 103px;
@@ -77,28 +89,36 @@ export default {
   height: 29px;
 }
 .search {
-  text-align: center;
+  display: none;
+  @media (--t) {
+    text-align: center;
+    display: block;
+    input {
+      width: 215px;
+      height: 28px;
+      border: 1px solid rgba(var(--b6a));
+      border-radius: 4px;
+      background: rgba(var(--b3f));
+      padding: 0 20px;
+    }
+  }
+  
 }
-.search input {
-  width: 215px;
-  height: 28px;
-  border: 1px solid rgba(var(--b6a));
-  border-radius: 4px;
-  background: rgba(var(--b3f));
-  padding: 0 20px;
-}
+
 .navigation {
   z-index: 90;
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(76, 0, 255);
-  height: 120px;
+  background-color:#fff;
+  height: 44px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border-top: 1px solid rgba(var(--b6a));
   @media (--t) {
+    border:0;
     height: auto;
     position: static;
     justify-content: flex-end;
