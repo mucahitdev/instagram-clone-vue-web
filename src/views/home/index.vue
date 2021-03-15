@@ -1,8 +1,7 @@
 <template>
   <div class="home">
     <div class="timeline">
-      <p>a</p>
-       <Avatar :size="80"  />
+      <Post />
     </div>
 
     <div class="sidebar">
@@ -10,17 +9,16 @@
         m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?
       </p>
     </div>
-
-
-    
   </div>
 </template>
 
 <script>
-import Avatar from '@/components/Avatar'
+import Post from "@/components/Post";
 export default {
   name: 'Home',
-  components:{Avatar}
+  components:{
+    Post
+  }
 }
 </script>
 
