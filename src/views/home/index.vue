@@ -1,38 +1,14 @@
 <template>
   <div class="home">
     <div class="timeline">
-        <p>AS ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum doFlor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-
+      <p>a</p>
+       <Avatar :size="80"  />
     </div>
 
     <div class="sidebar">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugiat adipisci in ipsam dolore
-        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?</p>
+        m et dolore molestiae eveniet. Enim animi qui cumque laboriosam suscipit debitis blanditiis ut officiis dignissimos velit?
+      </p>
     </div>
 
 
@@ -41,10 +17,10 @@
 </template>
 
 <script>
-
+import Avatar from '@/components/Avatar'
 export default {
   name: 'Home',
-  
+  components:{Avatar}
 }
 </script>
 
