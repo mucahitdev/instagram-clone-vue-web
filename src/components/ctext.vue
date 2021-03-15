@@ -24,6 +24,9 @@ export default {
 </script>
 
 <style scoped>
+.bold{
+  font-weight: bold;
+}
 .small {
   font-size: 12px;
 }
